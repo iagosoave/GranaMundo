@@ -8,7 +8,7 @@ Um projeto moderno de conversão de moedas com gráficos históricos e notícias
 
 ## 🌐 Acesse o Projeto
 
-[**GranaMundo - Conversor de Moedas**](https://seusiteaqui.com)
+[**GranaMundo - Conversor de Moedas**](https://granamundo.netlify.app/)
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -57,16 +57,20 @@ O projeto estará disponível em `http://localhost:3000`.
 ## 🖼️ Demonstração
 
 ### Tela Principal
-![Tela Principal](https://via.placeholder.com/800x400.png?text=Tela+Principal)
+![home](https://github.com/user-attachments/assets/6af70e06-c3ac-4b9a-8b9c-7d7c0df32011)
+
 
 ### Conversão de Moedas
-![Conversão de Moedas](https://via.placeholder.com/800x400.png?text=Convers%C3%A3o+de+Moedas)
+![converter](https://github.com/user-attachments/assets/e20da89f-3590-4526-8991-389e7cac2219)
+
 
 ### Gráficos Históricos
-![Gráficos Históricos](https://via.placeholder.com/800x400.png?text=Gr%C3%A1ficos+Hist%C3%B3ricos)
+![grafico](https://github.com/user-attachments/assets/92dce33a-019a-47a7-9c29-48a7463c800e)
+
 
 ### Notícias de Mercado
-![Notícias de Mercado](https://via.placeholder.com/800x400.png?text=Not%C3%ADcias+de+Mercado)
+![news](https://github.com/user-attachments/assets/6ecaf239-7d4b-4274-91d8-c9b58cdc2373)
+
 
 ## 📂 Estrutura do Projeto
 
