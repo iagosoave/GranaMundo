@@ -1,6 +1,7 @@
 # Conversor de Moedas
 
-![Uploading home.png…]()
+![home](https://github.com/user-attachments/assets/ced79e48-14ee-4d43-8d2d-4c5f5169f431)
+
 
 
 Um projeto moderno de conversão de moedas com gráficos históricos e notícias de mercado, desenvolvido em React.
