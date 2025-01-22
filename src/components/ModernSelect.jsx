@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect, useRef } from 'react';
 import { ChevronDown } from 'lucide-react';
 
@@ -23,7 +24,7 @@ export const ModernSelect = ({ value, onChange, options, className = '' }) => {
       <button
         type="button"
         onClick={() => setIsOpen(!isOpen)}
-        className="relative z-[1] w-full flex items-center justify-between gap-2 px-4 py-2 bg-green-50 rounded-lg hover:bg-green-100 transition-colors duration-200"
+        className="relative w-full flex items-center justify-between gap-2 px-4 py-2 bg-green-50 rounded-lg hover:bg-green-100 transition-colors duration-200"
       >
         <div className="flex items-center gap-3">
           <img 
@@ -37,7 +38,7 @@ export const ModernSelect = ({ value, onChange, options, className = '' }) => {
       </button>
       
       {isOpen && (
-        <div className="absolute z-[999] left-0 right-0 mt-2 bg-white rounded-lg shadow-xl border border-gray-100 py-2 max-h-60 overflow-auto">
+        <div className="fixed left-0 right-0 bottom-0 sm:absolute sm:bottom-auto sm:top-full mt-2 bg-white rounded-lg shadow-xl border border-gray-100 py-2 max-h-[50vh] sm:max-h-60 overflow-auto z-[9999]">
           {Object.entries(options).map(([code, curr]) => (
             <button
               key={code}
@@ -46,7 +47,7 @@ export const ModernSelect = ({ value, onChange, options, className = '' }) => {
                 onChange({ target: { value: code } });
                 setIsOpen(false);
               }}
-              className="w-full flex items-center gap-3 px-4 py-2 hover:bg-green-50 transition-colors duration-200"
+              className="w-full flex items-center gap-3 px-4 py-3 sm:py-2 hover:bg-green-50 transition-colors duration-200"
             >
               <img 
                 src={curr.flagImg} 
