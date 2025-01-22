@@ -1,6 +1,7 @@
 # Conversor de Moedas
 
-![GranaMundo](https://via.placeholder.com/800x400.png?text=GranaMundo+-+Conversor+de+Moedas)
+![Uploading home.png…]()
+
 
 Um projeto moderno de conversão de moedas com gráficos históricos e notícias de mercado, desenvolvido em React.
 
